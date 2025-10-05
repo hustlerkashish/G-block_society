@@ -1,0 +1,21 @@
+{
+  "welcome": "स्वागत है",
+  "login": "लॉगिन",
+  "dashboard": "डैशबोर्ड",
+  "app": {
+    "title": "सोसाइटी मैनेजमेंट सिस्टम"
+  },
+  "nav": {
+    "dashboard": "डैशबोर्ड",
+    "memberManagement": "सदस्य प्रबंधन",
+    "maintenanceBilling": "रखरखाव व बिलिंग",
+    "financeDashboard": "वित्त डैशबोर्ड",
+    "transactions": "लेन-देन",
+    "complaints": "शिकायत व सेवा अनुरोध",
+    "eventsAdmin": "इवेंट व सुविधा बुकिंग",
+    "eventsUser": "इवेंट व सुविधा बुकिंग",
+    "notices": "सूचना पट/संचार",
+    "documents": "दस्तावेज़ प्रबंधन",
+    "reports": "रिपोर्ट व विश्लेषण"
+  }
+}

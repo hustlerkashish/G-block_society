@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "memberNumber": "M001",
+    "fullName": "Rahul Sharma",
+    "phone": "9876543210",
+    "email": "rahul@example.com",
+    "block": "A",
+    "flat": "101",
+    "ownership": "Owner",
+    "rentalStatus": "Self-Occupied",
+    "familyCount": 4,
+    "joinDate": "2022-01-15",
+    "status": "Active",
+    "dues": "₹500"
+  },
+  {
+    "id": 2,
+    "memberNumber": "M002",
+    "fullName": "Priya Verma",
+    "phone": "9823456789",
+    "email": "priya@example.com",
+    "block": "B",
+    "flat": "203",
+    "ownership": "Tenant",
+    "rentalStatus": "Rented",
+    "familyCount": 2,
+    "joinDate": "2023-06-10",
+    "status": "Inactive",
+    "dues": "₹0"
+  }
+]

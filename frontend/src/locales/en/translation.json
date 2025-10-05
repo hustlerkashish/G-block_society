@@ -1,0 +1,21 @@
+{
+  "welcome": "Welcome",
+  "login": "Login",
+  "dashboard": "Dashboard",
+  "app": {
+    "title": "Society Management System"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "memberManagement": "Member Management",
+    "maintenanceBilling": "Maintenance & Billing",
+    "financeDashboard": "Finance Dashboard",
+    "transactions": "Transactions",
+    "complaints": "Complaint & Service Request",
+    "eventsAdmin": "Event & Facility Booking",
+    "eventsUser": "Event & Facility Booking",
+    "notices": "Notice Board / Communication",
+    "documents": "Document Management",
+    "reports": "Reports & Analytics"
+  }
+}
