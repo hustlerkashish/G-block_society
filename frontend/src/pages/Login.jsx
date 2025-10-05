@@ -18,7 +18,7 @@ function Login({ setUser, onLoginSuccess }) {
     try {
       console.log('🔐 Attempting login for user:', username);
       
-      const res = await axios.post('http://localhost:5002/api/auth/login', { 
+  const res = await axios.post('https://g-block-society.onrender.com/api/auth/login', { 
         username, 
         password 
       });

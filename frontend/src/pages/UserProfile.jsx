@@ -263,7 +263,7 @@ function UserProfile({ user, onLogout }) {
             <CardContent sx={{ textAlign: 'center', p: 3 }}>
               <Box sx={{ position: 'relative', display: 'inline-block' }}>
                 <Avatar
-                  src={profile.profilePhoto ? `http://localhost:5002${profile.profilePhoto}` : photoPreview}
+                  src={profile.profilePhoto ? `https://g-block-society.onrender.com${profile.profilePhoto}` : photoPreview}
                   sx={{ 
                     width: isMobile ? 120 : 150, 
                     height: isMobile ? 120 : 150,

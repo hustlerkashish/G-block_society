@@ -49,7 +49,7 @@ function ProfileButton({ user, onProfileClick, onLogout }) {
         }}
       >
         <Avatar
-          src={user?.profilePhoto ? `http://localhost:5002${user.profilePhoto}` : undefined}
+          src={user?.profilePhoto ? `https://g-block-society.onrender.com${user.profilePhoto}` : undefined}
           sx={{
             width: 45,
             height: 45,

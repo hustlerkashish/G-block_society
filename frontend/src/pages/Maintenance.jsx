@@ -14,18 +14,18 @@ export default function Maintenance() {
   }, []);
 
   const fetchRecords = async () => {
-    const res = await axios.get("http://localhost:5000/api/maintenance");
+  const res = await axios.get("https://g-block-society.onrender.com/api/maintenance");
     setRecords(res.data);
   };
 
   const handleSubmit = async () => {
-    await axios.post("http://localhost:5000/api/maintenance", form);
+  await axios.post("https://g-block-society.onrender.com/api/maintenance", form);
     setForm({ memberId: "", month: "", amount: "", dueDate: "" });
     fetchRecords();
   };
 
   const updateStatus = async (id, status) => {
-    await axios.put(`http://localhost:5000/api/maintenance/${id}`, { status });
+  await axios.put(`https://g-block-society.onrender.com/api/maintenance/${id}`, { status });
     fetchRecords();
   };
 
